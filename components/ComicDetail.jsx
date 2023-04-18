@@ -152,7 +152,7 @@ function ComicDetail({ comic }) {
                 <img src="/avatar.png" alt="" className="w-6" />
                 <div className="flex flex-col ml-3">
                   <div className=" text-xs font-bold h-fit">
-                    Hu TaoSama > Chapter 5
+                    Hu TaoSama  Chapter 5
                   </div>
                   <div className="mt-1 text-xs">
                     Mặt ông đi tàu hỏa ai cũng nghĩ thế thôi
@@ -174,7 +174,7 @@ function ComicDetail({ comic }) {
                 <img src="/avatar.png" alt="" className="w-6" />
                 <div className="flex flex-col ml-3">
                   <div className=" text-xs font-bold h-fit">
-                    Hu TaoSama > Chapter 5
+                    Hu TaoSama  Chapter 5
                   </div>
                   <div className="mt-1 text-xs">
                     Mặt ông đi tàu hỏa ai cũng nghĩ thế thôi
@@ -196,7 +196,7 @@ function ComicDetail({ comic }) {
                 <img src="/avatar.png" alt="" className="w-6" />
                 <div className="flex flex-col ml-3">
                   <div className=" text-xs font-bold h-fit">
-                    Hu TaoSama > Chapter 5
+                    Hu TaoSama  Chapter 5
                   </div>
                   <div className="mt-1 text-xs">
                     Mặt ông đi tàu hỏa ai cũng nghĩ thế thôi
