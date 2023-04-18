@@ -1,109 +1,122 @@
 [
-    {
-      "top":1,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":2,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":3,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":4,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":5,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":1,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":2,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":3,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":4,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":5,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":1,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":2,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":3,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":4,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    },
-    {
-      "top":5,
-      "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-      "title": "Avatar: The Way of Water",
-      "views": "32 M",
-      "Chapter": 1500
-    }
-    
-    
-  ]
+  {
+    "top": 1,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 2,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 3,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 4,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500, 
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 5,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 6,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 7,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 8,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 9,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 10,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 11,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 12,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 13,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 14,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  },
+  {
+    "top": 15,
+    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+    "title": "Avatar: The Way of Water",
+    "views": "32 M",
+    "Chapter": 1500,
+    "story": "Genshin Impact takes place in the world of Teyvat, composed of the seven major nations of Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Snezhnaya; each nation is ruled by a different god. The mysterious floating island of Celestia is allegedly home to gods and mortals who have ascended to godhood through great, heroic feats. Underground lie the ruins of the nation of Khaenri'ah which was destroyed by gods 500 years before the events of the game.Unlike the seven major nations, Khaenri'ah was not ruled over by a god. The player character, the Traveler (male or female, depending on the player's choice), is separated from their twin and becomes trapped in Teyvat. They are joined by a companion, Paimon, as they journey through Teyvat in search of their lost sibling. Although players can choose the name they want to be referred by, the Traveler's sibling refers to the Traveler by either Aether or Lumine if the Traveler is male or female, respectively."
+  }
+]
