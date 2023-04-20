@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "4af6b3bb-9736-4bda-8259-53192272cd71",
+		"name": "Comic-training",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23707733"
+	},
+	"item": [
+		{
+			"name": "comics",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9001/v1/comic?page=1&limit=10",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"v1",
+								"comic"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "categories",
+			"item": [
+				{
+					"name": "List Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9001/v1/category/categories",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"v1",
+								"category",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

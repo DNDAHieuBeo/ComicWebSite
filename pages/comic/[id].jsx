@@ -5,7 +5,7 @@ import data from '../../components/mock.json';
 function ComicDetailPage() {
   const router = useRouter();
   const { id } = router.query;
-  const comic = data.find((comic) => comic.top === parseInt(id));
+  const comic = data.find((comic) => comic._id === parseInt(id));
 
   if (!comic) {
     return <p>Loading...</p>;

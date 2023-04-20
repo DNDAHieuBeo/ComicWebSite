@@ -8,7 +8,7 @@ function ScrollToTopButton() {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-40 right-4  rounded-full focus:outline-none z-20"
+      className="fixed bottom-60 right-4  rounded-full focus:outline-none z-20"
     >
       <img className='w-16' src='./ScrollUpButton.png'/>
     </button>
