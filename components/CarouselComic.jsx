@@ -38,13 +38,13 @@ const CarouselComic = () => {
       </div>
       <div className="flex flex-col sm:flex-row justify-between w-full sm:w-[20%] px-4 sm:px-0">
         <button className="border-2 border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150 mb-2 sm:mb-0">
-          Top thang
+          Top tháng
         </button>
         <button className="border-2 border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150 mb-2 sm:mb-0 sm:mx-2">
-          Top tuan
+          Top tuần
         </button>
         <button className="border-2 border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150">
-          Top ngay
+          Top ngày
         </button>
       </div>
       <div className="carousel-wrapper md:w-full flex flex-row justify-center items-center px-4 w-[67%] ">
