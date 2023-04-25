@@ -31,12 +31,12 @@ function ListComicCard({ comic }) {
 
   const router = useRouter();
   const navigateToComicDetail = () => {
-    router.push(`/comics/${comic._id}`);
+    router.push(`/comics/${comic.url}`);
   };
 
   return (
     <div className=" w-[300px] rounded-xl hover:cursor-pointer hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150 border-black border-2">
-      <Link href={`/comics/${comic._id}`}>
+      <Link href={`/comics/${comic.url}`}>
         <a>
           <img
             onClick={navigateToComicDetail}
@@ -51,7 +51,7 @@ function ListComicCard({ comic }) {
           {capitalizeFirstLetter(comic.name)}
         </h2>
         {comic.chapters.map((chapter) => (
-          <div className="flex flex-column justify-between" key={chapter._id}>
+          <div className="flex flex-column justify-between" key={chapter.url}>
             <div className="font-bold">
               Chapter {firstWord(chapter.chapter)}
             </div>

@@ -1,11 +1,9 @@
 // constant/fetchData.js
 import axios from 'axios';
 
-export const fetchComics = async (page = 1, limit = 14) => {
+export const fetchComics = async () => {
   try {
-    const response = await axios.get(
-      `http://192.168.111.151:9001/v1/comic?page=${page}&limit=${limit}`
-    );
+    const response = await axios.get('https://comic.tuanndl.com/v1/comic?limit=9999999');
     return response.data;
   } catch (error) {
     console.error("Error fetching data:", error);
@@ -13,12 +11,14 @@ export const fetchComics = async (page = 1, limit = 14) => {
   }
 };
 
-export const fetchComicById = async (id) => {
+
+
+export const fetchComicById = async (url) => {
   try {
-    const response = await axios.get(`http://192.168.111.151:9001/v1/comic/${id}`);
-    return response.data;
+    const response = await axios.get(`https://comic.tuanndl.com/v1/comic?url=${url}`);
+    console.log('Response:', response); 
   } catch (error) {
-    console.error('Error fetching data:', error);zz
+    console.error('Error fetching data:', error);
     return null;
   }
 };

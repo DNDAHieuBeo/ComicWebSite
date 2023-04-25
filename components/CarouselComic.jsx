@@ -70,7 +70,6 @@ const CarouselComic = () => {
           autoplay={{ delay: 1000 }}
           pagination={{ clickable: true }}
           onSwiper={setSwiper}
-          onSlideChange={() => console.log("slide change")}
         >
           {data.map((item) => (
             <SwiperSlide key={item.top} className="py-8">
@@ -78,12 +77,9 @@ const CarouselComic = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <button onClick={handlePrev} className="hidden md:block">
-          
-        </button>
+        <button onClick={handlePrev} className="hidden md:block"></button>
       </div>
     </div>
   );
-  
 };
 export default CarouselComic;
