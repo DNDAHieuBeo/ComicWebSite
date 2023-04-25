@@ -1,7 +1,11 @@
-import ComicDetail from '../../components/ComicDetail';
+import { useRouter } from "next/router";
+import ComicDetail from "../../components/ComicDetail";
 
 function ComicDetailPage() {
-  return <ComicDetail />;
+  const router = useRouter();
+  const { url } = router.query;
+
+  return <ComicDetail url={url} />;
 }
 
 export default ComicDetailPage;

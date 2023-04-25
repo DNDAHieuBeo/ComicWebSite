@@ -15,8 +15,8 @@ export const fetchComics = async () => {
 
 export const fetchComicById = async (url) => {
   try {
-    const response = await axios.get(`https://comic.tuanndl.com/v1/comic?url=${url}`);
-    console.log('Response:', response); 
+    const response = await axios.get(`https://comic.tuanndl.com/v1/comic/url?url=${url}`);
+    return response.data;
   } catch (error) {
     console.error('Error fetching data:', error);
     return null;

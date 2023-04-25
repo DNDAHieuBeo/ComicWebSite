@@ -36,7 +36,7 @@ function ListComicCard({ comic }) {
 
   return (
     <div className=" w-[300px] rounded-xl hover:cursor-pointer hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150 border-black border-2">
-      <Link href={`/comics/${comic.url}`}>
+      <Link href={`/comics/${encodeURIComponent(comic.url)}`}>
         <a>
           <img
             onClick={navigateToComicDetail}
