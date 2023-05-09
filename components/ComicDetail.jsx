@@ -9,9 +9,15 @@ import { faShareNodes, faSmile } from "@fortawesome/free-solid-svg-icons";
 import { fetchComicById } from "../constant/fetchData";
 import { useRouter } from "next/router";
 import { getLinkImage } from "../constant/getLinkImage";
+import timeDifference from "./timeDifference";
 function ComicDetail({ url }) {
   const [comic, setComic] = useState(null);
   const [isHeartClicked, setIsHeartClicked] = useState(false);
+  function firstWord(string) {
+    const words = string.split(" ");
+    return words[0];
+    
+  }
 
   const toggleHeartColor = () => {
     setIsHeartClicked(!isHeartClicked);
@@ -21,6 +27,13 @@ function ComicDetail({ url }) {
   const { id } = router.query;
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  function formatNumber(number) {
+    if (number >= 1000) {
+      return (number / 1000).toFixed(0) + "K";
+    } else {
+      return number;
+    }
   }
 
   useEffect(() => {
@@ -34,7 +47,11 @@ function ComicDetail({ url }) {
     fetchComic();
   }, [url]);
   if (!comic) {
-    return <div>Loading...</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
+      </div>
+    );
   }
 
   return (
@@ -56,13 +73,28 @@ function ComicDetail({ url }) {
           </button>
           <h1 className="font-bold mt-4">Danh sách chương(300)</h1>
           <table className="w-full text-center my-4 rounded">
-            <tbody></tbody>
+            <tbody className="border-2 rounded">
+              {comic.chapters.slice(-10).reverse().map((chapter,index) => (
+                <tr
+                  key={chapter.url}
+                  className={index % 2 === 0 ? "bg-white" : "bg-gray-100"}
+                >
+                  <td className=" px-4 py-2">
+                    Chapter {firstWord(chapter.chapter)}
+                  </td>
+                  <td className=" px-4 py-2">{timeDifference(new Date(), new Date(chapter.updatedAt))}</td>
+                  <td className=" px-4 py-2">{formatNumber(chapter.view)}</td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         </div>
         <div className="w-full md:w-[70%] flex flex-col">
           <div className="w-full py-8 px-4 border-black border-2">
             {" "}
-            <h1 className="font-bold text-2xl">{capitalizeFirstLetter(comic.name)}</h1>
+            <h1 className="font-bold text-2xl">
+              {capitalizeFirstLetter(comic.name)}
+            </h1>
           </div>
           <div className="w-full border-black border-2 flex flex-col md:flex-row">
             <div className="flex flex-row justify-center md:justify-between w-full md:w-[20%] border-black md:border-r-2 px-4 md:px-12 py-4 md:py-6">
@@ -95,7 +127,7 @@ function ComicDetail({ url }) {
             </div>
             <div className="w-full md:w-[20%] border-black md:border-l-2 flex flex-row justify-center items-center py-4 md:py-0">
               <div className="share-icon">
-                {comic.views}
+                {formatNumber(comic.view)}
                 <FontAwesomeIcon
                   icon={faEye}
                   className="text-2xl cursor-pointer ml-2"

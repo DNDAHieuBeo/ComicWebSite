@@ -6,14 +6,21 @@ import ListComic from "../components/ListComic";
 import Footer from "../components/Footer";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import axios from "axios";
+
 function Mainpage() {
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const handleSelectCategory = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <div>
       <Header />
       <CarouselComic />
       <div className="relative">
-        <ComicCategory />
-        <ListComic />
+        <ComicCategory onSelectCategory={handleSelectCategory} />
+        <ListComic category={selectedCategory} />
       </div>
       <Footer />
       <ScrollToTopButton />

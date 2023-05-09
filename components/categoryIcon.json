@@ -1,82 +1,102 @@
 [
   {
     "key":1,
+    "name":"romance",
     "title": "/category-love.jpg"
   },
   {
     "key":2,
+    "name":"fantasy",
     "title": "/category-fantasy.jpg"
   },
   {
     "key":3,
+    "name":"comedy",
     "title": "/category-comedy.jpg"
   },
   {
     "key":4,
+    "name":"action",
     "title": "/category-action.jpg"
   },
   {
     "key":5,
+    "name":"thriller",
     "title": "/category-thriller.jpg"
   },
   {
     "key":6,
+    "name":"adult",
     "title": "/category-adult.jpg"
   },
   {
     "key":7,
+    "name":"horror",
     "title": "/category-horror.jpg"
   },
   {
     "key":8,
+    "name":"detective",
     "title": "/category-detective.jpg"
   },
   {
     "key":9,
+    "name":"vietnam",
     "title": "/category-vietnam.jpg"
   },
   {
     "key":10,
+    "name":"drama",
     "title": "/category-drama.jpg"
   },
   {
     "key":11,
+    "name":"gay",
     "title": "/category-gay.jpg"
   },
   {
     "key":12,
+    "name":"cartoon",
     "title": "/category-cartoon.jpg"
   },
   {
     "key":13,
+    "name":"acient",
     "title": "/category-acient.jpg"
   },
   {
     "key":14,
+    "name":"slice",
     "title": "/category-slice.jpg"
   },
   {
     "key":15,
+    "name":"sport",
     "title": "/category-sport.jpg"
   },
   {
     "key":16,
+    "name":"school",
     "title": "/category-school.jpg"
   },
   {
     "key":17,
+    "name":"cooking",
     "title": "/category-cooking.jpg"
   },
   {
     "key":18,
+    "name":"mystery",
     "title": "/category-mystery.jpg"
   },
   {
     "key":19,
+    "name":"superman",
     "title": "/category-superman.jpg"
   },
   {
     "key":20,
+    "name":"scientific",
     "title": "/category-scientific.jpg"
   }
 ]
