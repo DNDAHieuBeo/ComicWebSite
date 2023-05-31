@@ -5,13 +5,16 @@ import ComicCategory from "../components/ComicCategory";
 import ListComic from "../components/ListComic";
 import Footer from "../components/Footer";
 import ScrollToTopButton from "../components/ScrollToTopButton";
-import axios from "axios";
+import { fetchComics, fetchCategories } from "../constant/fetchData";
 
-function Mainpage() {
-  const [selectedCategory, setSelectedCategory] = useState("");
-
-  const handleSelectCategory = (category) => {
-    setSelectedCategory(category);
+function MainPage() {
+  const handleListComicClick = async () => {
+    try {
+      const comicData = await fetchComics();
+      // Update the state or perform other operations with the comicData
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -19,13 +22,11 @@ function Mainpage() {
       <Header />
       <CarouselComic />
       <div className="relative">
-        <ComicCategory onSelectCategory={handleSelectCategory} />
-        <ListComic category={selectedCategory} />
+        <ComicCategory handleListComicClick={handleListComicClick} />
       </div>
       <Footer />
       <ScrollToTopButton />
     </div>
   );
 }
-
-export default Mainpage;
+export default MainPage;

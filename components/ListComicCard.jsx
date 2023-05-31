@@ -9,10 +9,10 @@ import { useRouter } from "next/router";
 
 function ListComicCard({ comic }) {
   const [isHeartClicked, setIsHeartClicked] = useState(false);
-  function firstWord(string) {
-    const words = string.split(" ");
-    return words[0];
-  }
+  // function firstWord(string) {
+  //   const words = string.split(" ");
+  //   return words[0];
+  // }
 
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -53,7 +53,7 @@ function ListComicCard({ comic }) {
         {comic.chapters.map((chapter) => (
           <div className="flex flex-column justify-between" key={chapter.url}>
             <div className="font-bold">
-              Chapter {firstWord(chapter.chapter)}
+               Chapter {(chapter.chapter)}
             </div>
             <div className="font-bold">
               {timeDifference(new Date(), new Date(chapter.updatedAt))}

@@ -16,7 +16,6 @@ function ComicDetail({ url }) {
   function firstWord(string) {
     const words = string.split(" ");
     return words[0];
-    
   }
 
   const toggleHeartColor = () => {
@@ -57,7 +56,7 @@ function ComicDetail({ url }) {
   return (
     <div>
       <Header />
-      <ComicCategory />
+        
       <div className="flex flex-col md:flex-row w-full md:w-[85%] mx-auto my-8">
         <div className="w-full md:w-[30%] flex flex-col p-4 border-2 border-black">
           <img
@@ -74,18 +73,23 @@ function ComicDetail({ url }) {
           <h1 className="font-bold mt-4">Danh sách chương(300)</h1>
           <table className="w-full text-center my-4 rounded">
             <tbody className="border-2 rounded">
-              {comic.chapters.slice(-10).reverse().map((chapter,index) => (
-                <tr
-                  key={chapter.url}
-                  className={index % 2 === 0 ? "bg-white" : "bg-gray-100"}
-                >
-                  <td className=" px-4 py-2">
-                    Chapter {firstWord(chapter.chapter)}
-                  </td>
-                  <td className=" px-4 py-2">{timeDifference(new Date(), new Date(chapter.updatedAt))}</td>
-                  <td className=" px-4 py-2">{formatNumber(chapter.view)}</td>
-                </tr>
-              ))}
+              {comic.chapters
+                .slice(-10)
+                .reverse()
+                .map((chapter, index) => (
+                  <tr
+                    key={chapter.url}
+                    className={index % 2 === 0 ? "bg-white" : "bg-gray-100"}
+                  >
+                    <td className=" px-4 py-2">
+                      Chapter {firstWord(chapter.chapter)}
+                    </td>
+                    <td className=" px-4 py-2">
+                      {timeDifference(new Date(), new Date(chapter.updatedAt))}
+                    </td>
+                    <td className=" px-4 py-2">{formatNumber(chapter.view)}</td>
+                  </tr>
+                ))}
             </tbody>
           </table>
         </div>

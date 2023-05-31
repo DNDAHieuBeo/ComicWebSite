@@ -3,7 +3,7 @@ import React from "react";
 const Pagination = ({
   totalPosts,
   postsPerPage,
-  setCurrentPage,
+  onPageChange,
   currentPage,
 }) => {
   const pages = [];
@@ -16,7 +16,7 @@ const Pagination = ({
     <div className="flex flex-wrap justify-between items-center mt-4 w-full md:w-[30%] mx-auto">
       <button
         className="border border-gray-400 py-2 px-4 rounded-full font-medium text-gray-500 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500"
-        onClick={() => setCurrentPage(currentPage - 1)}
+        onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
       >
         Previous
@@ -27,7 +27,7 @@ const Pagination = ({
           return (
             <button
               key={index}
-              onClick={() => setCurrentPage(page)}
+              onClick={() => onPageChange(page)}
               className={`border border-gray-400 py-2 px-4 rounded-full font-medium text-gray-500 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 ${activeClass}`}
             >
               {page}
@@ -37,7 +37,7 @@ const Pagination = ({
       </div>
       <button
         className="border border-gray-400 py-2 px-4 rounded-full font-medium text-gray-500 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500"
-        onClick={() => setCurrentPage(currentPage + 1)}
+        onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === Math.ceil(totalPosts / postsPerPage)}
       >
         Next
