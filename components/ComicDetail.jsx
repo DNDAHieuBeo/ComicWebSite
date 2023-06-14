@@ -56,7 +56,7 @@ function ComicDetail({ url }) {
   return (
     <div>
       <Header />
-        
+
       <div className="flex flex-col md:flex-row w-full md:w-[85%] mx-auto my-8">
         <div className="w-full md:w-[30%] flex flex-col p-4 border-2 border-black">
           <img

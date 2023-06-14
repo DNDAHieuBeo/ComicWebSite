@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Autoplay } from "swiper";
-import data from "./mock.json";
+import { fetchComics } from "../constant/fetchData";
+import { useEffect } from "react";
 import CarouselComicCard from "./CarouselComicCard";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,6 +16,30 @@ import "swiper/css/scrollbar";
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const CarouselComic = () => {
   const [swiper, setSwiper] = useState(null);
+ 
+  const [popularComics, setPopularComics] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const comicsData = await fetchComics();
+        if (comicsData) {
+          const sortedComics = comicsData.results.sort((a, b) => b.view - a.view);
+          const top10Comics = sortedComics.slice(0, 10).map((comic, index) => ({
+            ...comic,
+            rank: index + 1,
+          }));
+          setPopularComics(top10Comics);
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchData();
+  }, []);
+  
+  
 
   const handlePrev = () => {
     if (swiper !== null) {
@@ -71,9 +96,9 @@ const CarouselComic = () => {
           pagination={{ clickable: true }}
           onSwiper={setSwiper}
         >
-          {data.map((item) => (
-            <SwiperSlide key={item.top} className="py-8">
-              <CarouselComicCard item={item} />
+          {popularComics.map((comicItem) => (
+            <SwiperSlide className="py-8" key={comicItem._id}>
+              <CarouselComicCard comic={comicItem} />
             </SwiperSlide>
           ))}
         </Swiper>

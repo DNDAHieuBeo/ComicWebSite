@@ -13,7 +13,12 @@ function ListComicCard({ comic }) {
   //   const words = string.split(" ");
   //   return words[0];
   // }
-
+  const truncateTitle = (title, maxLength) => {
+    if (title.length > maxLength) {
+      return `${title.substring(0, maxLength)}...`;
+    }
+    return title;
+  };
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
@@ -48,7 +53,7 @@ function ListComicCard({ comic }) {
       </Link>
       <div className="p-4 border-b-2 border-black">
         <h2 className="font-bold text-lg mb-2 ">
-          {capitalizeFirstLetter(comic.name)}
+        {truncateTitle(capitalizeFirstLetter(comic.name), 30  )}
         </h2>
         {comic.chapters.map((chapter) => (
           <div className="flex flex-column justify-between" key={chapter.url}>

@@ -35,11 +35,13 @@ function ListComic({ comics, category, displayedData, setDisplayedData }) {
     setCurrentPage(page);
   };
 
-  
-  
   return (
     <div className="py-4 relative">
-      {displayedData.length > 0 ? (
+      {!displayedData ? (
+        <div className="flex justify-center items-center h-screen">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
+        </div>
+      ) : displayedData.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto justify-items-center w-full md:w-[85%]">
           {displayedData.map((comic) => (
             <ListComicCard comic={comic} key={comic._id} />

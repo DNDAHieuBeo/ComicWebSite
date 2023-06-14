@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const fetchComics = async () => {
   try {
-    const response = await axios.get('https://comic.tuanndl.com/v1/comic?limit=9999999');
+    const response = await axios.get('https://comic.tuanndl.com/v1/comic?limit=100');
     return response.data;
   } catch (error) {
     console.error("Error fetching data:", error);
