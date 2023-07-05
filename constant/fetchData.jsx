@@ -40,3 +40,12 @@ export const fetchCategories = async () => {
     return null;
   }
 };
+export const fetchChapterById = async (id) => {
+  try {
+    const response = await axios.get(`https://comic.tuanndl.com/v1/chapter/${id}`);
+    return response.data;
+  } catch (error) {
+    console.log('Error fetching data:', error);
+    return null;
+  }
+};

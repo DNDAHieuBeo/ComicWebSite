@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Headers";
-import ComicCategory from "./ComicCategory";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { faEye, faHeart, faComment } from "@fortawesome/free-solid-svg-icons";
@@ -22,7 +22,7 @@ function ComicDetail({ url }) {
     setIsHeartClicked(!isHeartClicked);
   };
   const router = useRouter();
-  console.log(router);
+
   const { id } = router.query;
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -52,6 +52,9 @@ function ComicDetail({ url }) {
       </div>
     );
   }
+  const navigateToReadingPage = () => {
+    router.push(`/chapters/${comic.url}`);
+  };
 
   return (
     <div>
@@ -67,14 +70,16 @@ function ComicDetail({ url }) {
           <button className="w-full text-[#EAFA34] bg-black hover:text-black hover:bg-[#EAFA34] p-4 mt-4 rounded">
             Đọc tiếp
           </button>
-          <button className="w-full  text-black bg-[#EAFA34]  hover:text-[#EAFA34] hover:bg-black p-4 mt-2 rounded">
-            Đọc từ đầu
-          </button>
+          <Link href={`/comics/chapters/${encodeURIComponent(comic.url)}`}>
+            <button className="w-full  text-black bg-[#EAFA34]  hover:text-[#EAFA34] hover:bg-black p-4 mt-2 rounded">
+              Đọc từ đầu
+            </button>
+          </Link>
           <h1 className="font-bold mt-4">Danh sách chương(300)</h1>
           <table className="w-full text-center my-4 rounded">
             <tbody className="border-2 rounded">
               {comic.chapters
-                .slice(-10)
+                .slice(-10) 
                 .reverse()
                 .map((chapter, index) => (
                   <tr
@@ -119,15 +124,11 @@ function ComicDetail({ url }) {
             </div>
 
             <div className="w-full md:w-[60%] flex flex-wrap justify-center md:justify-start md:flex-nowrap items-center px-4 py-4">
-              <button className="w-22 mx-1 md:mx-0 md:ml-4 h-12 hover:border-2 hover:border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150">
-                <img src="/category-fantasy.jpg" alt="" className="h-4" />
-              </button>
-              <button className="w-22 mx-1 md:mx-0 md:ml-4 h-12 hover:border-2 hover:border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150">
-                <img src="/category-comedy.jpg" alt="" className="h-4" />
-              </button>
-              <button className="w-22 mx-1 md:mx-0 md:ml-4 h-12 hover:border-2 hover:border-black p-2 rounded-3xl hover:shadow-xl transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-150">
-                <img src="/category-detective.jpg" alt="" className="h-4" />
-              </button>
+              {comic.categories.map((index) => (
+                <div key={index._id} className="ml-6">
+                  {index.name}
+                </div>
+              ))}
             </div>
             <div className="w-full md:w-[20%] border-black md:border-l-2 flex flex-row justify-center items-center py-4 md:py-0">
               <div className="share-icon">
@@ -181,7 +182,7 @@ function ComicDetail({ url }) {
                     <button>
                       <img
                         src="/comment-icon2.png"
-                        className="w-4 h-4 cursor-pointer ml-2"
+                        className="w-4 h-4 cursor-pointer ml-2"  
                       />
                     </button>
                   </div>
