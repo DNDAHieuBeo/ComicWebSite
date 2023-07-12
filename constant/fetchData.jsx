@@ -23,7 +23,7 @@ export const fetchComicById = async (url) => {
 
 export const fetchComicByCategoryId = async (categoryId) => {
   try {
-    const response = await axios.get(`https://comic.tuanndl.com/v1/comic/category/${categoryId}?limit=9999999`);
+    const response = await axios.get(`https://comic.tuanndl.com/v1/comic/category/${categoryId}?limit=100`);
     return response.data.results;
   } catch (error) {
     console.log('Error fetching data:', error);

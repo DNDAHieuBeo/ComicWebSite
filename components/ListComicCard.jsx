@@ -9,10 +9,10 @@ import { useRouter } from "next/router";
 
 function ListComicCard({ comic }) {
   const [isHeartClicked, setIsHeartClicked] = useState(false);
-  // function firstWord(string) {
-  //   const words = string.split(" ");
-  //   return words[0];
-  // }
+  function firstWord(string) {
+    const words = string.split(" ");
+    return words[0];
+  }
   const truncateTitle = (title, maxLength) => {
     if (title.length > maxLength) {
       return `${title.substring(0, maxLength)}...`;

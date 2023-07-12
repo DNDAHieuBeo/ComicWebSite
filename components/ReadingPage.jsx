@@ -8,8 +8,8 @@ import { getLinkImage } from "../constant/getLinkImage";
 function ReadingPage({ url }) {
   const [comic, setComic] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 1; // Chỉ hiển thị 1 chapter trên mỗi trang
-  const maxDisplayedPages = 5;
+  const postsPerPage = 1; 
+  const maxDisplayedPages = 4;
 
   useEffect(() => {
     const fetchComic = async () => {
@@ -41,7 +41,7 @@ function ReadingPage({ url }) {
   }, [chapterId]);
 
   return (
-    <div className=" justify-center bg-black">
+    <div className=" justify-center bg-black w-full">
       {chapter ? (
         <div className="w-[40%] m-auto">
           {chapter.images.map((image, index) => (
@@ -49,6 +49,7 @@ function ReadingPage({ url }) {
               key={index}
               src={getLinkImage(image)}
               alt={`Image ${index + 1}`}
+              className="w-[100%]"
             />
           ))}
           <div className="flex justify-center mt-5">
