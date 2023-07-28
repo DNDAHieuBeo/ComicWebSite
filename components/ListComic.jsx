@@ -52,13 +52,15 @@ function ListComic({ comics, category, displayedData, setDisplayedData }) {
           Không có truyện nào trong danh mục này
         </div>
       )}
-      <Pagination
-        totalPosts={filteredComics.length}
-        postsPerPage={postsPerPage}
-        currentPage={currentPage}
-        onPageChange={handlePageChange}
-        className="mt-4"
-      />
+      <div className="p-4">
+        <Pagination
+          totalPosts={filteredComics.length}
+          postsPerPage={postsPerPage}
+          currentPage={currentPage}
+          onPageChange={handlePageChange}
+          className="mt-4 "
+        />
+      </div>
     </div>
   );
 }

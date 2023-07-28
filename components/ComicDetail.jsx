@@ -58,6 +58,7 @@ function ComicDetail({ url }) {
 
   return (
     <div>
+    
       <Header />
 
       <div className="flex flex-col md:flex-row w-full md:w-[85%] mx-auto my-8">
@@ -75,7 +76,7 @@ function ComicDetail({ url }) {
               Đọc từ đầu
             </button>
           </Link>
-          <h1 className="font-bold mt-4">Danh sách chương(300)</h1>
+          <h1 className="font-bold mt-4">Danh sách chương</h1>
           <table className="w-full text-center my-4 rounded">
             <tbody className="border-2 rounded">
               {comic.chapters
