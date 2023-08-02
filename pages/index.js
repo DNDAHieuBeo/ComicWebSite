@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getLinkImage } from "../constant/fetchData"; // Make sure the path to the fetchData file is correct
+ // Make sure the path to the fetchData file is correct
 
 import Mainpage from "./mainpage";
 

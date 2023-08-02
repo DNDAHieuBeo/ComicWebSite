@@ -3,7 +3,7 @@ import {
   fetchCategories,
   fetchComicByCategoryId,
   fetchComics,
-} from "../constant/fetchData";
+} from "../../constant/fetchData";
 
 import ListComic from "./ListComic";
 

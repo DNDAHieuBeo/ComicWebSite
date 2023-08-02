@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <div className="bg-white border-b-2 border-black flex flex-col md:flex-row  justify-between items-center w-full p-4 md:p-0 ">
-        <Link href='/'>
+        <Link href="/">
           <img
             src="/logo.jpg"
             alt="logo"
@@ -20,10 +20,11 @@ const Header = () => {
             placeholder="Tìm kiếm tên truyện"
           />
         </div>
-
-        <button className="bg-[#252427] text-[#EAFA34] hover:text-[#252427] hover:bg-[#EAFA34] px-4 py-2 md:py-8 border-black transition duration-150 md:border-x-2 border-2">
-          Đăng nhập/Đăng ký
-        </button>
+        <Link href="/Login">
+          <a className="bg-[#252427] text-[#EAFA34] hover:text-[#252427] hover:bg-[#EAFA34] px-4 py-2 md:py-8 border-black transition duration-150 md:border-x-2 border-2">
+            Đăng nhập/Đăng ký
+          </a>
+        </Link>
       </div>
     </div>
   );

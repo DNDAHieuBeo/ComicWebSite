@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import ComicDetail from "../../components/ComicDetail";
+import ComicDetail from "../components/ComicDetail";
 
 function ComicDetailPage() {
   const router = useRouter();

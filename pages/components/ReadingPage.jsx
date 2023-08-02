@@ -1,9 +1,9 @@
 import React from "react";
-import { fetchComicById } from "../constant/fetchData";
+import { fetchComicById } from "../../constant/fetchData";
 import { useState, useEffect, useRef } from "react"; // Import useRef
 import Pagination from "./Pagination";
-import { fetchChapterById } from "../constant/fetchData";
-import { getLinkImage } from "../constant/getLinkImage";
+import { fetchChapterById } from "../../constant/fetchData";
+import { getLinkImage } from "../../constant/fetchData";
 import Header from "./Headers";
 
 function ReadingPage({ url }) {

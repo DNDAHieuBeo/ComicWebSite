@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListComicCard from "./ListComicCard";
 import Pagination from "./Pagination";
-import { fetchComics } from "../constant/fetchData";
+import { fetchComics } from "../../constant/fetchData";
 
 function ListComic({ comics, category, displayedData, setDisplayedData }) {
   const [currentPage, setCurrentPage] = useState(1);
