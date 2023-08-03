@@ -1,9 +1,9 @@
 import React from "react";
-import { fetchComicById } from "../../constant/fetchData";
+import { fetchComicById } from "../constant/fetchData";
 import { useState, useEffect, useRef } from "react"; // Import useRef
 import Pagination from "./Pagination";
-import { fetchChapterById } from "../../constant/fetchData";
-import { getLinkImage } from "../../constant/fetchData";
+import { fetchChapterById } from "../constant/fetchData";
+import { getLinkImage } from "../constant/fetchData";
 import Header from "./Headers";
 
 function ReadingPage({ url }) {
@@ -51,6 +51,11 @@ function ReadingPage({ url }) {
     setIsHeaderExpanded((prevState) => !prevState);
     setIsPaginationExpanded((prevState) => !prevState);
   };
+   
+  const handleScroll = () =>{
+    setIsHeaderExpanded((prevState) => !prevState);
+    setIsPaginationExpanded((prevState) => !prevState);
+  }
 
   const onScroll =()=>{
     const winScroll =document.documentElement.scrollTop;
@@ -87,7 +92,7 @@ function ReadingPage({ url }) {
       >
         <Header />
       </div>
-      <div className="w-full h-auto z-50" onClick={handleClickHeader}>
+      <div className="w-full h-auto z-50" onClick={handleClickHeader} onScrollCapture={handleClickHeader}>
         {chapter ? (
           <div className="w-full md:w-[40%] m-auto">
             {chapter.images.map((image, index) => (

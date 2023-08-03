@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Autoplay } from "swiper";
-import { fetchComics } from "../../constant/fetchData";
+import { fetchComics } from "../constant/fetchData";
 import { useEffect } from "react";
 import CarouselComicCard from "./CarouselComicCard";
 import { useState } from "react";

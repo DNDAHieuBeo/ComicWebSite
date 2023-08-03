@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { faEye, faHeart, faComment } from "@fortawesome/free-solid-svg-icons";
 import { faShareNodes, faSmile } from "@fortawesome/free-solid-svg-icons";
-import { fetchComicById } from "../../constant/fetchData";
+import { fetchComicById } from "../constant/fetchData";
 import { useRouter } from "next/router";
-import { getLinkImage } from "../../constant/fetchData";
+import { getLinkImage } from "../constant/fetchData";
 import timeDifference from "./timeDifference";
 function ComicDetail({ url }) {
   const [comic, setComic] = useState(null);
